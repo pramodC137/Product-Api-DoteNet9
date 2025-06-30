@@ -58,6 +58,7 @@ namespace DotNet9_FirstApi
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
